@@ -161,7 +161,7 @@
 //#include <stdio.h> <<이문제 꼭 여쭤보기 
 //int main()
 //{
-//	int a = 0*41, b = 0*61;
+//	int a = 0x41, b = 0x61;
 //
 //	int tol;
 //
@@ -170,3 +170,204 @@
 //	printf("%c를 소문자로 표시하면 %c이며 \n", 'K', 'K' + tol);
 //	printf("%c를 대문자로 표시하면 %c이며 \n", 'Z', 'Z' - tol);
 //}
+
+//조건문 if
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (apple == 15)//apple이 15이면실행
+//	{	printf("apple은 15개 있습니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (apple != 17)//apple이 17이 아닐경우 실행
+//	{
+//		printf("apple은 17개가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (apple > 7)//apple이 7보다 크면 실행
+//	{
+//		printf("apple은 7개보다 많습니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (apple < 20)//apple이 20보다 적을 경우 실행
+//	{
+//		printf("apple은 20개보다 적습니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (apple)
+//	{
+//		printf("apple은 0개가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (!apple)
+//	{
+//		printf("apple은 하나도 없습니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 0;
+//	if (apple == 10) //apple이 10이면 실행
+//	{
+//		printf("apple은 10개 있습니다.\n"); //apple이 10일 경우 실행되는 실행문 
+//	}
+//	else if (apple == 0) //apple이 0이면 실행
+//	{
+//		printf("apple은 하나도 없습니다.\n"); //apple이 0일 경우 실행되는 실행문 
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int apple = 15;
+//	if (!apple) //apple이 0이면 실행 
+//	{
+//		printf("apple은 하나도 없습니다.\n");
+//	}
+//	else
+//	{
+//		printf("apple은 0개가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int number;
+//	printf("숫자를 입력해주세요: ");
+//	scanf("%d", &number);
+//
+//	if (number > 0)
+//	{
+//		printf("입력 하신 숫자%d는 양수입니다.\n", number);
+//	}
+//	else if (number < 0)
+//	{
+//		printf("입력하신 숫자%d는 음수 입니다.\n", number);
+//	}
+//	else 
+//	{
+//		printf("입력하신 숫자는 0입니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+// 논리연산자 활용 예시 
+//int main()
+//{
+//	int number;
+//	printf("숫자를 입력하세요: ");
+//	scanf("%d", &number);
+//
+//	if (number >= 10 && number <= 99)
+//	{
+//		printf("입력하신 숫자는 두 자리 입니다.\n");
+//	}
+//	else
+//	{
+//		printf("입력하신 숫자는 두 자리 숫자가 아닙니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int height = 170;
+//	if (height > 150)
+//	{
+//		printf("키가 150 이상입니다.\n");
+//	}
+//	if (height > 160)
+//	{
+//		printf("키가 160 이상입니다.\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int height = 170;
+//	if (height > 150)
+//	{
+//		printf("키가 150 이상입니다,\n");
+//	}
+//	else if (height > 160)
+//	{
+//		printf("키가 160 이상입니다.\n");
+//	}
+//	return 0;
+//}
+
+#include <stdio.h>
+int main()
+{
+	int y_age;
+	printf("나이를 입력하세요: ");
+	scanf("%d", &y_age);
+
+	if (y_age >= 15)
+	{
+		printf("볼수 있는 영화 등급은 ==> 전체 관람가, 12세 관람가, 15세 관람가\n");
+	}
+	else if (y_age >= 12)
+	{
+		printf("볼수 있는 영화 등급은 ==> 전체 관람가, 12세 관람가\n");
+	}
+	else 
+	{
+		printf("볼수 있는 영화 등급은 ==> 전체관람가\n");
+	}
+	return 0;
+	
+}
