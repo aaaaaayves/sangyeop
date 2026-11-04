@@ -1,4 +1,4 @@
-ï»¿//251p - 7ë²ˆ
+//251p - 7¹ø
 //#include <stdio.h>
 //
 //int main()
@@ -7,9 +7,9 @@
 //	int end;
 //	int change;
 //
-//	printf("ì‹œì‘ ê°’ì„ ì…ë ¥ ==> ");
+//	printf("½ÃÀÛ °ªÀ» ÀÔ·Â ==> ");
 //	scanf("%d", &start);
-//	printf("ë ê°’ì„ ì…ë ¥ ==> ");
+//	printf("³¡ °ªÀ» ÀÔ·Â ==> ");
 //	scanf("%d", &end);
 //
 //	if (start > end) {
@@ -24,7 +24,7 @@
 //	
 //}
 
-//251p - 8ë²ˆ
+//251p - 8¹ø
 //#include <stdio.h>
 //#include <math.h>
 //
@@ -42,7 +42,7 @@
 //
 //	//count = num / 10;
 //
-//	while (num != 0) { // numì´ 0ê³¼ ê°™ì§€ì•Šì„ë•Œ ì‹¤í–‰í•´ë¼ 
+//	while (num != 0) { // numÀÌ 0°ú °°Áö¾ÊÀ»¶§ ½ÇÇàÇØ¶ó 
 //
 //		count++;
 //
@@ -58,11 +58,11 @@
 //
 //
 //
-//	//printf("ìˆ«ìë¥¼ ì—¬ëŸ¬ê°œ ì…ë ¥: ");
+//	//printf("¼ıÀÚ¸¦ ¿©·¯°³ ÀÔ·Â: ");
 //	//scanf("%d", &num );
 //
 //
-//	printf("%dìë¦¬ìˆ˜\n", count);
+//	printf("%dÀÚ¸®¼ö\n", count);
 //	printf("%0.0f\n", num2);
 //	printf("%d\n", odd);
 //	printf("%d\n", odd2);
@@ -75,7 +75,7 @@
 
 
 //#include <stdio.h>
-////ë¬¸ì œ6
+////¹®Á¦6
 //int main()
 //{
 //	int num;
@@ -99,9 +99,9 @@
 //			turn = 'A';
 //	}
 //	if (turn == 'A')
-//		printf("Aê°€ ì´ê²¼ìŠµë‹ˆë‹¤!");
+//		printf("A°¡ ÀÌ°å½À´Ï´Ù!");
 //	else
-//		printf("Bê°€ ì´ê²¼ìŠµë‹ˆë‹¤!");
+//		printf("B°¡ ÀÌ°å½À´Ï´Ù!");
 //}
 
 //#include <stdio.h>
@@ -109,30 +109,30 @@
 //
 //int main()
 //{
-//	int num;          // ì…ë ¥ë°›ëŠ” ìˆ«ì ë‹´ê¸° ë³€ìˆ˜ (ê³„ì‚°í•˜ë©´ì„œ ê°’ì´ ë°”ë€œ)
-//	int count = 0;    // ëª‡ ìë¦¬ ìˆ˜ì¸ì§€ ì„¸ëŠ” ë³€ìˆ˜
-//	double num2;      // 10ì˜ (count-1)ìŠ¹, pow ê²°ê³¼ë¼ì„œ double
-//	int odd;          // êº¼ë‚¸ í•œ ìë¦¬ ìˆ«ì (3 â†’ 7 â†’ 2 â†’ 1)
-//	int original;     // ì…ë ¥í•œ ìˆ«ì ì›ë³¸ ë³´ê´€ìš©
-//	int power;        // num2ë¥¼ ì •ìˆ˜ë¡œ ë°”ê¾¼ ê°’ (1000 â†’ 100 â†’ 10 â†’ 1)
-//	int i;            // í•˜íŠ¸ ê°œìˆ˜ ì„¸ëŠ” ë³€ìˆ˜
+//	int num;          // ÀÔ·Â¹Ş´Â ¼ıÀÚ ´ã±â º¯¼ö (°è»êÇÏ¸é¼­ °ªÀÌ ¹Ù²ñ)
+//	int count = 0;    // ¸î ÀÚ¸® ¼öÀÎÁö ¼¼´Â º¯¼ö
+//	double num2;      // 10ÀÇ (count-1)½Â, pow °á°ú¶ó¼­ double
+//	int odd;          // ²¨³½ ÇÑ ÀÚ¸® ¼ıÀÚ (3 ¡æ 7 ¡æ 2 ¡æ 1)
+//	int original;     // ÀÔ·ÂÇÑ ¼ıÀÚ ¿øº» º¸°ü¿ë
+//	int power;        // num2¸¦ Á¤¼ö·Î ¹Ù²Û °ª (1000 ¡æ 100 ¡æ 10 ¡æ 1)
+//	int i;            // ÇÏÆ® °³¼ö ¼¼´Â º¯¼ö
 //
-//	printf("ìˆ«ìë¥¼ ì—¬ëŸ¬ê°œ ì…ë ¥: ");
+//	printf("¼ıÀÚ¸¦ ¿©·¯°³ ÀÔ·Â: ");
 //	scanf("%d", &num);
 //	original = num;
 //
-//	// 1. ëª‡ ìë¦¬ ìˆ˜ì¸ì§€ êµ¬í•˜ê¸°
-//	while (num != 0) {    // numì´ 0ê³¼ ê°™ì§€ ì•Šì„ ë•Œ ì‹¤í–‰í•´ë¼
+//	// 1. ¸î ÀÚ¸® ¼öÀÎÁö ±¸ÇÏ±â
+//	while (num != 0) {    // numÀÌ 0°ú °°Áö ¾ÊÀ» ¶§ ½ÇÇàÇØ¶ó
 //		count++;
 //		num = num / 10;
 //	}
-//	printf("%dìë¦¬ìˆ˜\n", count);
+//	printf("%dÀÚ¸®¼ö\n", count);
 //
-//	// 2. 10ì˜ ëª‡ ìŠ¹ì¸ì§€ êµ¬í•˜ê¸°
+//	// 2. 10ÀÇ ¸î ½ÂÀÎÁö ±¸ÇÏ±â
 //	num2 = pow(10, count - 1);
-//	printf("10ì˜ %dìŠ¹ = %0.0f\n", count - 1, num2);
+//	printf("10ÀÇ %d½Â = %0.0f\n", count - 1, num2);
 //
-//	// 3. í•œ ìë¦¬ì”© ì„¸ë¡œë¡œ ì¶œë ¥í•˜ê¸°
+//	// 3. ÇÑ ÀÚ¸®¾¿ ¼¼·Î·Î Ãâ·ÂÇÏ±â
 //	num = original;
 //	power = (int)num2;
 //	while (power != 0) {
@@ -142,13 +142,13 @@
 //		power = power / 10;
 //	}
 //
-//	// 4. í•˜íŠ¸ ì¶œë ¥í•˜ê¸°
+//	// 4. ÇÏÆ® Ãâ·ÂÇÏ±â
 //	num = original;
 //	power = (int)num2;
 //	while (power != 0) {
 //		odd = num / power;
 //		i = 0;
-//		while (i < odd) { // i < odd *2 ì²˜ëŸ¼ ê³±í•˜ê¸°ë¥¼ ë¹¼ê³  ë°‘ì—ì²˜ëŸ¼ \u2665ë¥¼ ë‘ë²ˆ ì¶œë ¥í•´ë„ë¨ 
+//		while (i < odd) { // i < odd *2 Ã³·³ °öÇÏ±â¸¦ »©°í ¹Ø¿¡Ã³·³ \u2665¸¦ µÎ¹ø Ãâ·ÂÇØµµµÊ 
 //			printf("\u2665\u2665");
 //			i++;
 //		}
@@ -170,10 +170,10 @@
 //	int study = 0;
 //	int holliday = 0;
 //	do {
-//		printf("\n%dë²ˆì§¸ ë‚  !\n", ++day);
-//		printf("ì˜¤ëŠ˜ë„ ë­˜ í• ê¹Œìš”?\n");
-//		printf("1. ì½”ë”© ê³µë¶€í•œë‹¤.\n2. ì¹œêµ¬ë¥¼ ë§Œë‚œë‹¤.\n3. ì—¬í–‰ê°„ë‹¤\n.");
-//		printf("ê·¸ì™¸. ëë‚¸ë‹¤.\n >> ");
+//		printf("\n%d¹øÂ° ³¯ !\n", ++day);
+//		printf("¿À´Ãµµ ¹» ÇÒ±î¿ä?\n");
+//		printf("1. ÄÚµù °øºÎÇÑ´Ù.\n2. Ä£±¸¸¦ ¸¸³­´Ù.\n3. ¿©Çà°£´Ù\n.");
+//		printf("±×¿Ü. ³¡³½´Ù.\n >> ");
 //		scanf("%d", &command);
 //		if (command < 1 || command > 3) break;
 //		int randInt = rand() % 5 + 1;
@@ -182,29 +182,29 @@
 //		case 1:
 //			switch (randInt) {
 //			case 1:
-//				printf("ê¸°ë¶„ì´ ì¢‹ë„¤ìš”.\n");
+//				printf("±âºĞÀÌ ÁÁ³×¿ä.\n");
 //			case 3:
-//				printf("ë„ì„œê´€ì—ì„œ. ");
+//				printf("µµ¼­°ü¿¡¼­. ");
 //				break;
 //			case 2:
-//				printf("ê¸°ë¶„ì´ ë‚˜ë¹ ìš”.\n");
+//				printf("±âºĞÀÌ ³ªºü¿ä.\n");
 //			case 4:
-//				printf("ì¹´í˜ì—ì„œ ");
+//				printf("Ä«Æä¿¡¼­ ");
 //				break;
-//			case 5: printf("í•™ì›ì—ì„œ ");
+//			case 5: printf("ÇĞ¿ø¿¡¼­ ");
 //			}
-//			printf("ì½”ë”© ê³µë¶€í•©ì‹œë‹¤.\n ");
+//			printf("ÄÚµù °øºÎÇÕ½Ã´Ù.\n ");
 //			study++;
 //
 //			switch (command) 
 //			case 2:
 //				switch (randInt) {
 //				case 1:
-//					printf("ì˜¤ëŠ˜ì€ ì¹œêµ¬ ìƒì¼\n");
+//					printf("¿À´ÃÀº Ä£±¸ »ıÀÏ\n");
 //				case 2:
-//					printf("ì˜¤ëŠ˜ì€ ì¹œêµ¬ë‘ ì €ë… ì•½ì†\n");
+//					printf("¿À´ÃÀº Ä£±¸¶û Àú³á ¾à¼Ó\n");
 //				case 3:
-//					printf("ì¹œêµ¬ ê²°í˜¼ì‹\n");
+//					printf("Ä£±¸ °áÈ¥½Ä\n");
 //					break;
 //				}
 //			}
@@ -214,37 +214,37 @@
 //		case 3:
 //			switch (randInt) {
 //			case 1:
-//				printf("ìš°ë¦¬ ë™ë„¤\n");
+//				printf("¿ì¸® µ¿³×\n");
 //			case 2:
-//				printf("êµ­ë‚´ ìœ ëª…í•œê³³\n");
+//				printf("±¹³» À¯¸íÇÑ°÷\n");
 //			case 3:
-//				printf("í•´ì™¸\n");
+//				printf("ÇØ¿Ü\n");
 //				break;
 //			}
 //			study--;
 //		}
 //		while (1);
 //		if (day <= 3) {
-//			printf("ê·¸ëŒ€ë¡œ ì…ë‹ˆë‹¤...\n");
+//			printf("±×´ë·Î ÀÔ´Ï´Ù...\n");
 //		}
 //		else {
 //			int level = study / 8;
 //			switch (level) {
 //			default:
-//				printf("í’€ìŠ¤íƒ ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("Ç®½ºÅÃ °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //
 //			case 0:
-//				printf("ì½”ë”© ìƒˆì‹¹ì´ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÄÚµù »õ½ÏÀÌ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 1:
-//				printf("í”„ë¡œê·¸ë˜ë¨¸ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÇÁ·Î±×·¡¸Ó°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 2:
-//				printf("FrontEnd ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("FrontEnd °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 3:
-//				printf("BackEnd ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("BackEnd °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			}
 //		}
@@ -259,17 +259,17 @@
 //int main()
 //{
 //	srand((unsigned int)time(NULL));
-//	int command;       // ì…ë ¥ë°›ì€ ê°’
-//	int day = 0;       // ë‚ ì§œ
-//	int study = 0;     // ê³µë¶€ í•œ íšŸìˆ˜
-//	int holliday = 0;  // ì—¬í–‰ ê°„ íšŸìˆ˜
-//	int famous = 0;    // ì¹œêµ¬ ë§Œë‚œ íšŸìˆ˜
+//	int command;       // ÀÔ·Â¹ŞÀº °ª
+//	int day = 0;       // ³¯Â¥
+//	int study = 0;     // °øºÎ ÇÑ È½¼ö
+//	int holliday = 0;  // ¿©Çà °£ È½¼ö
+//	int famous = 0;    // Ä£±¸ ¸¸³­ È½¼ö
 //
 //	do {
-//		printf("\n%dë²ˆì§¸ ë‚  !\n", ++day);
-//		printf("ì˜¤ëŠ˜ë„ ë­˜ í• ê¹Œìš”?\n");
-//		printf("1. ì½”ë”© ê³µë¶€í•œë‹¤.\n2. ì¹œêµ¬ë¥¼ ë§Œë‚œë‹¤.\n3. ì—¬í–‰ê°„ë‹¤.\n");
-//		printf("ê·¸ì™¸. ëë‚¸ë‹¤.\n >> ");
+//		printf("\n%d¹øÂ° ³¯ !\n", ++day);
+//		printf("¿À´Ãµµ ¹» ÇÒ±î¿ä?\n");
+//		printf("1. ÄÚµù °øºÎÇÑ´Ù.\n2. Ä£±¸¸¦ ¸¸³­´Ù.\n3. ¿©Çà°£´Ù.\n");
+//		printf("±×¿Ü. ³¡³½´Ù.\n >> ");
 //		scanf("%d", &command);
 //		if (command < 1 || command > 3) break;
 //		int randInt = rand() % 5 + 1;
@@ -277,105 +277,105 @@
 //		if (command == 1) {
 //			switch (randInt) {
 //			case 1:
-//				printf("ê¸°ë¶„ì´ ì¢‹ë„¤ìš”.\n");
+//				printf("±âºĞÀÌ ÁÁ³×¿ä.\n");
 //			case 3:
-//				printf("ë„ì„œê´€ì—ì„œ. ");
+//				printf("µµ¼­°ü¿¡¼­. ");
 //				break;
 //			case 2:
-//				printf("ê¸°ë¶„ì´ ë‚˜ë¹ ìš”.\n");
+//				printf("±âºĞÀÌ ³ªºü¿ä.\n");
 //			case 4:
-//				printf("ì¹´í˜ì—ì„œ ");
+//				printf("Ä«Æä¿¡¼­ ");
 //				break;
 //			case 5:
-//				printf("í•™ì›ì—ì„œ ");
+//				printf("ÇĞ¿ø¿¡¼­ ");
 //			}
-//			printf("ì½”ë”© ê³µë¶€í•©ì‹œë‹¤.\n ");
+//			printf("ÄÚµù °øºÎÇÕ½Ã´Ù.\n ");
 //			study++;
 //		}
 //		else if (command == 2) {
 //			switch (randInt) {
 //			case 1:
-//				printf("ì˜¤ëŠ˜ì€ ì¹œêµ¬ ìƒì¼\n");
+//				printf("¿À´ÃÀº Ä£±¸ »ıÀÏ\n");
 //				break;
 //			case 2:
-//				printf("ì˜¤ëŠ˜ì€ ì¹œêµ¬ë‘ ì €ë… ì•½ì†\n");
+//				printf("¿À´ÃÀº Ä£±¸¶û Àú³á ¾à¼Ó\n");
 //				break;
 //			case 3:
-//				printf("ì¹œêµ¬ ê²°í˜¼ì‹\n");
+//				printf("Ä£±¸ °áÈ¥½Ä\n");
 //				break;
 //			}
-//			printf("ì¸ë§¥ ê´€ë¦¬\n");
+//			printf("ÀÎ¸Æ °ü¸®\n");
 //			famous++;
 //		}
 //		else if (command == 3) {
 //			switch (randInt) {
 //			case 1:
-//				printf("ë™ë„¤ ê°€ê¹Œìš´ ê´€ê´‘ì§€\n");
+//				printf("µ¿³× °¡±î¿î °ü±¤Áö\n");
 //				break;
 //			case 2:
-//				printf("í•´ì™¸ ìœ ëª… ê´€ê´‘ì§€\n");
+//				printf("ÇØ¿Ü À¯¸í °ü±¤Áö\n");
 //				break;
 //			case 3:
-//				printf("êµ­ë‚´ ìœ ëª… ê´€ê´‘ì§€\n");
+//				printf("±¹³» À¯¸í °ü±¤Áö\n");
 //				break;
 //			}
-//			printf("ì—¬í–‰ ê°„ë‚ \n");
+//			printf("¿©Çà °£³¯\n");
 //			holliday++;
 //		}
 //
 //	} while (1);
 //
 //	if (day <= 4) {
-//		printf("ê·¸ëŒ€ë¡œ ì…ë‹ˆë‹¤...\n");
+//		printf("±×´ë·Î ÀÔ´Ï´Ù...\n");
 //	}
 //	else {
-//		//ê³µë¶€ì—”ë”©
-//		if (study > 0) {               // ê³µë¶€ë¥¼ 1ë²ˆì´ë¼ë„ í–ˆì„ ë•Œë§Œ
+//		//°øºÎ¿£µù
+//		if (study > 0) {               // °øºÎ¸¦ 1¹øÀÌ¶óµµ ÇßÀ» ¶§¸¸
 //			int level = study / 8;
 //			switch (level) {
 //			default:
-//				printf("í’€ìŠ¤íƒ ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("Ç®½ºÅÃ °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 0:
-//				printf("ì½”ë”© ìƒˆì‹¹ì´ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÄÚµù »õ½ÏÀÌ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 1:
-//				printf("í”„ë¡œê·¸ë˜ë¨¸ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÇÁ·Î±×·¡¸Ó°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 2:
-//				printf("FrontEnd ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("FrontEnd °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 3:
-//				printf("BackEnd ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("BackEnd °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			}
 //		}
 //
-//		//ì¹œêµ¬ì—”ë”©
-//		if (famous > 0) {              // ì¹œêµ¬ë¥¼ 1ë²ˆì´ë¼ë„ ë§Œë‚¬ì„ ë•Œë§Œ
+//		//Ä£±¸¿£µù
+//		if (famous > 0) {              // Ä£±¸¸¦ 1¹øÀÌ¶óµµ ¸¸³µÀ» ¶§¸¸
 //			int level = famous / 5;
 //			switch (level) {
 //			default:
-//				printf("ì¸ë§¥ì™•ì´ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÀÎ¸Æ¿ÕÀÌ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 0:
-//				printf("ì¹œêµ¬ê°€ ì¡°ê¸ˆ ìƒê²¼ìŠµë‹ˆë‹¤.!\n");
+//				printf("Ä£±¸°¡ Á¶±İ »ı°å½À´Ï´Ù.!\n");
 //				break;
 //			case 1:
-//				printf("ì¸ê¸°ìŸì´ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÀÎ±âÀïÀÌ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			}
 //		}
 //
-//		//ì—¬í–‰ì—”ë”©
-//		if (holliday > 0) {            // ì—¬í–‰ì„ 1ë²ˆì´ë¼ë„ ê°”ì„ ë•Œë§Œ
+//		//¿©Çà¿£µù
+//		if (holliday > 0) {            // ¿©ÇàÀ» 1¹øÀÌ¶óµµ °¬À» ¶§¸¸
 //			int level = holliday / 5;
 //			switch (level) {
 //			default:
-//				printf("ê°€ì´ë“œê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("°¡ÀÌµå°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 0:
-//				printf("ì—¬í–‰ì„ ì¡°ê¸ˆ ë‹¤ë…€ì™”ìŠµë‹ˆë‹¤.!\n");
+//				printf("¿©ÇàÀ» Á¶±İ ´Ù³à¿Ô½À´Ï´Ù.!\n");
 //				break;
 //			}
 //		}
@@ -384,7 +384,7 @@
 //	return 0;
 //}
 
-//ìœ„ì—êº¼ì—ì„œ ì œì¼ ë§ì´ ì‹¤í–‰ ëœ ê²ƒë§Œ ì—”ë”©ìœ¼ë¡œ ì¶œë ¥í•˜ê¸° 
+//À§¿¡²¨¿¡¼­ Á¦ÀÏ ¸¹ÀÌ ½ÇÇà µÈ °Í¸¸ ¿£µùÀ¸·Î Ãâ·ÂÇÏ±â 
 //#include <stdio.h>
 //#include <stdlib.h>
 //#include <time.h>
@@ -392,17 +392,17 @@
 //int main()
 //{
 //	srand((unsigned int)time(NULL));
-//	int command;       // ì…ë ¥ë°›ì€ ê°’
-//	int day = 0;       // ë‚ ì§œ
-//	int study = 0;     // ê³µë¶€ í•œ íšŸìˆ˜
-//	int holliday = 0;  // ì—¬í–‰ ê°„ íšŸìˆ˜
-//	int famous = 0;    // ì¹œêµ¬ ë§Œë‚œ íšŸìˆ˜
+//	int command;       // ÀÔ·Â¹ŞÀº °ª
+//	int day = 0;       // ³¯Â¥
+//	int study = 0;     // °øºÎ ÇÑ È½¼ö
+//	int holliday = 0;  // ¿©Çà °£ È½¼ö
+//	int famous = 0;    // Ä£±¸ ¸¸³­ È½¼ö
 //
 //	do {
-//		printf("\n%dë²ˆì§¸ ë‚  !\n", ++day);
-//		printf("ì˜¤ëŠ˜ë„ ë­˜ í• ê¹Œìš”?\n");
-//		printf("1. ì½”ë”© ê³µë¶€í•œë‹¤.\n2. ì¹œêµ¬ë¥¼ ë§Œë‚œë‹¤.\n3. ì—¬í–‰ê°„ë‹¤.\n");
-//		printf("ê·¸ì™¸. ëë‚¸ë‹¤.\n >> ");
+//		printf("\n%d¹øÂ° ³¯ !\n", ++day);
+//		printf("¿À´Ãµµ ¹» ÇÒ±î¿ä?\n");
+//		printf("1. ÄÚµù °øºÎÇÑ´Ù.\n2. Ä£±¸¸¦ ¸¸³­´Ù.\n3. ¿©Çà°£´Ù.\n");
+//		printf("±×¿Ü. ³¡³½´Ù.\n >> ");
 //		scanf("%d", &command);
 //		if (command < 1 || command > 3) break;
 //		int randInt = rand() % 5 + 1;
@@ -410,105 +410,105 @@
 //		if (command == 1) {
 //			switch (randInt) {
 //			case 1:
-//				printf("ê¸°ë¶„ì´ ì¢‹ë„¤ìš”.\n");
+//				printf("±âºĞÀÌ ÁÁ³×¿ä.\n");
 //			case 3:
-//				printf("ë„ì„œê´€ì—ì„œ. ");
+//				printf("µµ¼­°ü¿¡¼­. ");
 //				break;
 //			case 2:
-//				printf("ê¸°ë¶„ì´ ë‚˜ë¹ ìš”.\n");
+//				printf("±âºĞÀÌ ³ªºü¿ä.\n");
 //			case 4:
-//				printf("ì¹´í˜ì—ì„œ ");
+//				printf("Ä«Æä¿¡¼­ ");
 //				break;
 //			case 5:
-//				printf("í•™ì›ì—ì„œ ");
+//				printf("ÇĞ¿ø¿¡¼­ ");
 //			}
-//			printf("ì½”ë”© ê³µë¶€í•©ì‹œë‹¤.\n ");
+//			printf("ÄÚµù °øºÎÇÕ½Ã´Ù.\n ");
 //			study++;
 //		}
 //		else if (command == 2) {
 //			switch (randInt) {
 //			case 1:
-//				printf("ë™í˜¸íšŒ ì°¸ì„\n");
+//				printf("µ¿È£È¸ Âü¼®\n");
 //				break;
 //			case 2:
-//				printf("ì§€ì¸ë“¤ê³¼ì˜ ì €ë… ì•½ì† ì°¸ì„\n");
+//				printf("ÁöÀÎµé°úÀÇ Àú³á ¾à¼Ó Âü¼®\n");
 //				break;
 //			case 3:
-//				printf("ë™ë£Œ ê²°í˜¼ì‹ ì°¸ì„\n");
+//				printf("µ¿·á °áÈ¥½Ä Âü¼®\n");
 //				break;
 //			}
-//			printf("ì‚¬íšŒìƒí™œ\n");
+//			printf("»çÈ¸»ıÈ°\n");
 //			famous++;
 //		}
 //		else if (command == 3) {
 //			switch (randInt) {
 //			case 1:
-//				printf("ë™ë„¤ ê°€ê¹Œìš´ ê´€ê´‘ì§€\n");
+//				printf("µ¿³× °¡±î¿î °ü±¤Áö\n");
 //				break;
 //			case 2:
-//				printf("í•´ì™¸ ìœ ëª… ê´€ê´‘ì§€\n");
+//				printf("ÇØ¿Ü À¯¸í °ü±¤Áö\n");
 //				break;
 //			case 3:
-//				printf("êµ­ë‚´ ìœ ëª… ê´€ê´‘ì§€\n");
+//				printf("±¹³» À¯¸í °ü±¤Áö\n");
 //				break;
 //			}
-//			printf("ì—¬í–‰ ê°„ë‚ \n");
+//			printf("¿©Çà °£³¯\n");
 //			holliday++;
 //		}
 //
 //	} while (1);
 //
 //	if (day <= 4) {
-//		printf("ê·¸ëŒ€ë¡œ ì…ë‹ˆë‹¤...\n");
+//		printf("±×´ë·Î ÀÔ´Ï´Ù...\n");
 //	}
 //	else {
-//		//ê³µë¶€ì—”ë”©
-//		if (study > famous && study > holliday) { //ìŠ¤í„°ë””ê°€ ê°€ì¥ë§ì´ ì‹¤í–‰ë  ê²½ìš° ìŠ¤í„°ë””"ë§Œ" ì¶œë ¥í•˜ê¸°
+//		//°øºÎ¿£µù
+//		if (study > famous && study > holliday) { //½ºÅÍµğ°¡ °¡Àå¸¹ÀÌ ½ÇÇàµÉ °æ¿ì ½ºÅÍµğ"¸¸" Ãâ·ÂÇÏ±â
 //			int level = study / 8;
 //			switch (level) {
 //			default:
-//				printf("í’€ìŠ¤íƒ ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("Ç®½ºÅÃ °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 0:
-//				printf("ì½”ë”© ìƒˆì‹¹ì´ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÄÚµù »õ½ÏÀÌ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 1:
-//				printf("í”„ë¡œê·¸ë˜ë¨¸ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÇÁ·Î±×·¡¸Ó°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 2:
-//				printf("FrontEnd ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("FrontEnd °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 3:
-//				printf("BackEnd ê°œë°œìê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("BackEnd °³¹ßÀÚ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			}
 //		}
 //
-//		//ì¹œêµ¬ì—”ë”©
+//		//Ä£±¸¿£µù
 //		else if (famous > study && famous > holliday) {             
 //			int level = famous / 5;
 //			switch (level) {
 //			default:
-//				printf("ì¸ë§¥ì™•ì´ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÀÎ¸Æ¿ÕÀÌ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 0:
-//				printf("ì¹œêµ¬ê°€ ì¡°ê¸ˆ ìƒê²¼ìŠµë‹ˆë‹¤.!\n");
+//				printf("Ä£±¸°¡ Á¶±İ »ı°å½À´Ï´Ù.!\n");
 //				break;
 //			case 1:
-//				printf("ì¸ê¸°ìŸì´ê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("ÀÎ±âÀïÀÌ°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			}
 //		}
 //
-//		//ì—¬í–‰ì—”ë”©
+//		//¿©Çà¿£µù
 //		else if (holliday > study && holliday > famous) {          
 //			int level = holliday / 5;
 //			switch (level) {
 //			default:
-//				printf("ê°€ì´ë“œê°€ ë˜ì—ˆìŠµë‹ˆë‹¤.!\n");
+//				printf("°¡ÀÌµå°¡ µÇ¾ú½À´Ï´Ù.!\n");
 //				break;
 //			case 0:
-//				printf("ì—¬í–‰ì„ ì¡°ê¸ˆ ë‹¤ë…€ì™”ìŠµë‹ˆë‹¤.!\n");
+//				printf("¿©ÇàÀ» Á¶±İ ´Ù³à¿Ô½À´Ï´Ù.!\n");
 //				break;
 //			}
 //		}
@@ -524,9 +524,9 @@
 //{
 //	int sheep;
 //	for (sheep = 1; sheep <= 5; sheep++) {
-//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
+//		printf("¾ç %d¸¶¸®\n", sheep);
 //	}
-//	printf("ì ë“¤ì—ˆë‹¤!\n");
+//	printf("Àáµé¾ú´Ù!\n");
 //}
 
 //#include <stdio.h>
@@ -535,9 +535,9 @@
 //	int sheep;
 //	for (sheep = 1; sheep <= 5; sheep++)
 //	{
-//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
+//		printf("¾ç %d¸¶¸®\n", sheep);
 //		if (sheep == 3) {
-//			printf("ë„ì¤‘ì— ì ë“¤ì—ˆë‹¤!\n");
+//			printf("µµÁß¿¡ Àáµé¾ú´Ù!\n");
 //			break;
 //		}
 //
@@ -551,39 +551,39 @@
 //	int sheep;
 //	for (sheep = 1; sheep <= 5; sheep++) {
 //		if (sheep == 3) {
-//			printf("ì¡¸ì•„ì„œ ì–‘ì„ ì„¸ì§€ ëª»í–ˆë‹¤!\n");
+//			printf("Á¹¾Æ¼­ ¾çÀ» ¼¼Áö ¸øÇß´Ù!\n");
 //			continue;
 //		}
-//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
+//		printf("¾ç %d¸¶¸®\n", sheep);
 //	}
 //	return 0;
 //}
 
-//ì–‘ 20ë§ˆë¦¬ ì„¸ëŠ” í”„ë¡œê·¸ë¨
+//¾ç 20¸¶¸® ¼¼´Â ÇÁ·Î±×·¥
 //#include <stdio.h>
 //int main()
 //{
 //	int sheep;
 //	for (sheep = 1; sheep <= 20; sheep++) {
-//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
+//		printf("¾ç %d¸¶¸®\n", sheep);
 //	}
 //}
 
-//ì–‘ 50ë§ˆë¦¬ë¥¼ ì„¸ëŠ”ë° 10,20,30,40ë§ˆë¦¬ë¥¼ ì…€ë•ŒëŠ” ê¹œë¹¡ì¡¸ê³  45ë§ˆë¦¬ë¥¼ ì…€ë•Œ ë©ˆì¶”ë„ë¡
+//¾ç 50¸¶¸®¸¦ ¼¼´Âµ¥ 10,20,30,40¸¶¸®¸¦ ¼¿¶§´Â ±ôºıÁ¹°í 45¸¶¸®¸¦ ¼¿¶§ ¸ØÃßµµ·Ï
 //#include <stdio.h>
 //int main()
 //{
 //	int sheep;
 //	for (sheep = 1; sheep <= 50; sheep++) {
 //		if (sheep % 10 == 0) {
-//			printf("ê¹œë¹¡ ì¡¸ì•˜ë‹¤!\n");
+//			printf("±ôºı Á¹¾Ò´Ù!\n");
 //		}
 //		else if (sheep == 45) {
-//			printf("ì ë“¤ì—ˆì–´ìš”.\n");
+//			printf("Àáµé¾ú¾î¿ä.\n");
 //			break;
 //			
 //		}
-//		printf("ì–‘ %dë§ˆë¦¬\n", sheep);
+//		printf("¾ç %d¸¶¸®\n", sheep);
 //	}
 //	return 0;
 //
@@ -595,7 +595,7 @@
 //	int round;
 //	for (round = 0; round < 10; round++)
 //	{
-//		printf("ë¼ìš´ë“œ %d\n", round);
+//		printf("¶ó¿îµå %d\n", round);
 //	}
 //}
 
@@ -605,7 +605,7 @@
 //	int round;
 //	for (round = 1; round <= 10; round++)
 //	{
-//		printf("ë¼ìš´ë“œ %d\n", round);
+//		printf("¶ó¿îµå %d\n", round);
 //	}
 //	return 0;
 //}
@@ -617,7 +617,7 @@
 //	int count;
 //	for (count = 101; count < 111; count++)
 //	{
-//		printf("ì•„íŒŒíŠ¸ %dë™\n", count);
+//		printf("¾ÆÆÄÆ® %dµ¿\n", count);
 //	}
 //	return 0;
 //}
@@ -625,33 +625,33 @@
 //#include <stdio.h>
 //
 //int main()
-//{ // 1ë¶€í„° 20ê¹Œì§€ ë”í•˜ëŠ” ë°©ë²• 
+//{ // 1ºÎÅÍ 20±îÁö ´õÇÏ´Â ¹æ¹ı 
 //	int number;
 //	int sum_number = 0; 
-//	for (number = 1; number <= 20; number++) //numberëŠ” 1ë¶€í„° 20ê¹Œì§€ 1ì”© ë³€í•œë‹¤
+//	for (number = 1; number <= 20; number++) //number´Â 1ºÎÅÍ 20±îÁö 1¾¿ º¯ÇÑ´Ù
 //	{
-//		sum_number += number; //ì´ ì½”ë“œëŠ” sum_number = sum_number + number;ì™€ ê°™ë‹¤
-//		// ë°˜ë³µì‹œë§ˆë‹¤ sum_numberì— numberë¥¼ ë”í•œë‹¤.
+//		sum_number += number; //ÀÌ ÄÚµå´Â sum_number = sum_number + number;¿Í °°´Ù
+//		// ¹İº¹½Ã¸¶´Ù sum_number¿¡ number¸¦ ´õÇÑ´Ù.
 //		// 0+1+2+3+4....+20
 //	}
-//	printf("ë„í•© %d\n", sum_number);
+//	printf("µµÇÕ %d\n", sum_number);
 //	return 0;
 //}
 
 //#include <stdio.h>
-////ì…ë ¥í•œ íšŸìˆ˜ë§Œí¼ ë°˜ë³µí•˜ëŠ” ë°©ë²• 
+////ÀÔ·ÂÇÑ È½¼ö¸¸Å­ ¹İº¹ÇÏ´Â ¹æ¹ı 
 //int main()
 //{
 //	int count;
 //	int number;
-//	printf("ë°˜ë³µí•  íšŸìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
+//	printf("¹İº¹ÇÒ È½¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
 //	scanf("%d", &count);
 //	for (number = 0; number < count; number++)
-//		//ì¡°ê±´ì‹ì´ Falseê°€ ë˜ë©´ ëë‚¨ 
+//		//Á¶°Ç½ÄÀÌ False°¡ µÇ¸é ³¡³² 
 //	{
-//		printf("ì‚ì•½");
-//	//ì¡°ê±´ì‹ì— number < ì…ë ¥í•œ ìˆ˜ë¥¼ ë„£ì–´ íšŸìˆ˜ë§Œí¼ ë°˜ë³µ 
-//    //for(number = 1; number <= count; number++) ë¡œë„ ê°€ëŠ¥ 
+//		printf("»ß¾à");
+//	//Á¶°Ç½Ä¿¡ number < ÀÔ·ÂÇÑ ¼ö¸¦ ³Ö¾î È½¼ö¸¸Å­ ¹İº¹ 
+//    //for(number = 1; number <= count; number++) ·Îµµ °¡´É 
 //	}
 //	printf("\n");
 //	return 0;
@@ -664,7 +664,7 @@
 //	int number;
 //	for (number = 10; number <= 99; number++)
 //	{
-//		printf("10~99ê¹Œì§€ì˜ ë‘ ìë¦¬ìˆ˜ %d\n", number);
+//		printf("10~99±îÁöÀÇ µÎ ÀÚ¸®¼ö %d\n", number);
 //	}
 //}
 
@@ -677,10 +677,10 @@
 //	for (num = 3; num <= 8; num++) {
 //		multiply *= num;
 //	}
-//	printf("3ë¶€í„° 8ê¹Œì§€ ê³±í•œ ê°’: %d\n", multiply);
+//	printf("3ºÎÅÍ 8±îÁö °öÇÑ °ª: %d\n", multiply);
 //}
 
-//1ì´ìƒ 50ì´í•˜ì˜ìˆ˜ 369 ë°•ìˆ˜ ì¼ ë˜ëŠ” ì‹­ì˜ ìë¦¬ì— 3,6,9
+//1ÀÌ»ó 50ÀÌÇÏÀÇ¼ö 369 ¹Ú¼ö ÀÏ ¶Ç´Â ½ÊÀÇ ÀÚ¸®¿¡ 3,6,9
 //#include <stdio.h>
 //
 //int main()
@@ -690,13 +690,13 @@
 //	int num10;
 //
 //	for (num = 1; num <= 50; num++) {
-//		int num10 = num / 10; //ì‹­ì˜ìë¦¬ êµ¬í•˜ê¸°
-//		int num1 = num % 10;  //ì¼ì˜ìë¦¬ êµ¬í•˜ê¸°
+//		int num10 = num / 10; //½ÊÀÇÀÚ¸® ±¸ÇÏ±â
+//		int num1 = num % 10;  //ÀÏÀÇÀÚ¸® ±¸ÇÏ±â
 //
 //		if (num1 == 3 || num1 == 6 || num1 == 9 ||
-//			num10 == 3 || num10 == 6 || num10 == 9) { //0ì´ ì•„ë‹Œ ë…¼ë¦¬ì—°ì‚°ì ì‚¬ìš©í•´ì•¼í•¨ 
+//			num10 == 3 || num10 == 6 || num10 == 9) { //0ÀÌ ¾Æ´Ñ ³í¸®¿¬»êÀÚ »ç¿ëÇØ¾ßÇÔ 
 //
-//			printf("%d ë°•ìˆ˜\n", num);
+//			printf("%d ¹Ú¼ö\n", num);
 //		}
 //	}
 //
@@ -712,15 +712,15 @@
 //	int i;
 //	for (i = 0; i < 3; i++)
 //	{
-//		printf("ì•ˆë…•í•˜ì„¸ìš” \n");
-//		printf("##ë˜ ì•ˆë…•í•˜ì„¸ìš”?## \n");
+//		printf("¾È³çÇÏ¼¼¿ä \n");
+//		printf("##¶Ç ¾È³çÇÏ¼¼¿ä?## \n");
 //	}
 //
 //	printf("\n\n");
 //
 //	for (i = 0; i < 3; i++)
-//		printf("ì•ˆë…•í•˜ì„¸ìš”? \n");
-//	printf("##ë˜ ì•ˆë…•í•˜ì„¸ìš”?## \n");
+//		printf("¾È³çÇÏ¼¼¿ä? \n");
+//	printf("##¶Ç ¾È³çÇÏ¼¼¿ä?## \n");
 //}
 
 // 205p 6-13
@@ -734,7 +734,7 @@
 //	{
 //		for (k = 0; k < 2; k++)
 //		{
-//			printf("ì¤‘ì²© forë¬¸ì…ë‹ˆë‹¤. (iê°’: %d, kê°’: %d\n", i, k);
+//			printf("ÁßÃ¸ for¹®ÀÔ´Ï´Ù. (i°ª: %d, k°ª: %d\n", i, k);
 //		}
 //	}
 //}
@@ -748,7 +748,7 @@
 //
 //	for (i=2; i<= 9; i++)
 //	{
-//		printf(" ## %dë‹¨ ##\n", i);
+//		printf(" ## %d´Ü ##\n", i);
 //		for (k = 1; k <= 9; k++)
 //		{
 //			printf(" %d X %d = %d \n", i, k, i * k);
@@ -782,7 +782,7 @@
 //int main()
 //{
 //	int number;
-//	printf("100ì´í•˜ì˜ ì œê³±ìˆ˜ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤.\n");
+//	printf("100ÀÌÇÏÀÇ Á¦°ö¼ö¸¦ Ãâ·ÂÇÕ´Ï´Ù.\n");
 //
 //	for (number = 1; (number * number) <= 100; number++)
 //	{
@@ -796,10 +796,10 @@
 //int main()
 //{
 //	int number;
-//	printf("100ì´í•˜ 7ì˜ ë°°ìˆ˜ë¥¼ ì¶œë ¥\n");
+//	printf("100ÀÌÇÏ 7ÀÇ ¹è¼ö¸¦ Ãâ·Â\n");
 //
 //	for (number = 7; number <= 100; number += 7)
-//	{//ì¦ê°ì¡°ê±´ì´ ++ --ê°€ ì•„ë‹ˆì–´ë„ ê°€ëŠ¥
+//	{//Áõ°¨Á¶°ÇÀÌ ++ --°¡ ¾Æ´Ï¾îµµ °¡´É
 //		printf("%d\n", number);
 //	}
 //}
@@ -808,7 +808,7 @@
 //int main()
 //{
 //	char input;
-//	for ( ; ; ) //ì¡°ê±´ë¬¸ì„ ì ì§€ì•Šê³  í´ë¡ ì„ 2ê°œ ë„£ìœ¼ë©´ ì´ ê²½ìš° ë¬´í•œ ë°˜ë³µ
+//	for ( ; ; ) //Á¶°Ç¹®À» ÀûÁö¾Ê°í Å¬·ĞÀ» 2°³ ³ÖÀ¸¸é ÀÌ °æ¿ì ¹«ÇÑ ¹İº¹
 //	{
 //		scanf(" %c", &input);
 //		switch (input)
@@ -816,10 +816,10 @@
 //		case 's': 
 //			printf("START GAME\n");
 //			break;
-//		case 'e': //eì…ë ¥ì‹œ í”„ë¡œê·¸ë¨ ì¢…ë£Œ 
+//		case 'e': //eÀÔ·Â½Ã ÇÁ·Î±×·¥ Á¾·á 
 //			printf("EXIT GAME\n");
 //			return 0;
-//		}//mainì•ˆì—ì„œ returnì‹œ í”„ë¡œê·¸ë¨ì´ ì¢…ë£Œ
+//		}//main¾È¿¡¼­ return½Ã ÇÁ·Î±×·¥ÀÌ Á¾·á
 //	}
 //	return 0;
 //}
@@ -828,9 +828,9 @@
 //int main()
 //{
 //	int input;
-//	for (; ; ) //ì¡°ê±´ë¬¸ì„ ì ì§€ì•Šìœ¼ë©´ ë¬´í•œë°˜ë³µ
+//	for (; ; ) //Á¶°Ç¹®À» ÀûÁö¾ÊÀ¸¸é ¹«ÇÑ¹İº¹
 //	{
-//		printf("ìˆ«ì ì…ë ¥>>");
+//		printf("¼ıÀÚ ÀÔ·Â>>");
 //		scanf("%d", &input);
 //		if (input == 404) printf("Not Found");
 //		else if (input <= 30 && input >= 1) {
@@ -845,16 +845,16 @@
 //int main()
 //{
 //	int exitFor, number;
-//	printf("1ë¶€í„° 10ê¹Œì§€ ê³±í•œ ìˆ˜ ì¶œë ¥ : ");
+//	printf("1ºÎÅÍ 10±îÁö °öÇÑ ¼ö Ãâ·Â : ");
 //	for (number = 10, exitFor = number - 1;
 //	exitFor; number *= exitFor, exitFor--)
 //	{
-//		// ì´ˆê¸°í™”ì™€ ì¦ê°ì‹ì— ì—¬ëŸ¬ì¤„ì˜ ì½”ë“œê°€ ë“¤ì–´ê°ˆ ìˆ˜ ìˆë‹¤.
-//		// ì¡°ê±´ì‹ì— ë³€ìˆ˜ í•˜ë‚˜ê°€ ë“¤ì–´ê°€ë©´ 0ì´ë  ë•Œ ë°˜ë³µì´ë©ˆì¶˜ë‹¤.
-//		// {}ì•ˆì— ì½”ë“œê°€ ì—†ì–´ë„ ì¡°ê±´ë¬¸ê³¼ ì¦ê°ì‹ì€ ì‹¤í–‰ëœë‹¤.
+//		// ÃÊ±âÈ­¿Í Áõ°¨½Ä¿¡ ¿©·¯ÁÙÀÇ ÄÚµå°¡ µé¾î°¥ ¼ö ÀÖ´Ù.
+//		// Á¶°Ç½Ä¿¡ º¯¼ö ÇÏ³ª°¡ µé¾î°¡¸é 0ÀÌµÉ ¶§ ¹İº¹ÀÌ¸ØÃá´Ù.
+//		// {}¾È¿¡ ÄÚµå°¡ ¾ø¾îµµ Á¶°Ç¹®°ú Áõ°¨½ÄÀº ½ÇÇàµÈ´Ù.
 //		// 
-//		// exitFor; 10 * 9, ê³±í•˜ê³  9ì¸ exitForë¥¼ -- 1ì”© ë¹¼ë¼  
-//        // ì¡°ê±´ì‹ì— ë³€ìˆ˜í•˜ë‚˜ê°€ ë“¤ì–´ê°”ê¸°ì—? exitê°€ 0ì´ ë ë•Œê¹Œì§€ ë°˜ë³µë¬¸ ì‹¤í–‰ 
+//		// exitFor; 10 * 9, °öÇÏ°í 9ÀÎ exitFor¸¦ -- 1¾¿ »©¶ó  
+//        // Á¶°Ç½Ä¿¡ º¯¼öÇÏ³ª°¡ µé¾î°¬±â¿¡? exit°¡ 0ÀÌ µÉ¶§±îÁö ¹İº¹¹® ½ÇÇà 
 //	}
 //	printf("%d\n", number);
 //	return 0;
@@ -864,15 +864,15 @@
 //int main()
 //{
 //	int number, exitFor;
-//	printf("1ë¶€í„° 10ê¹Œì§€ ê³±í•œ ìˆ˜ ì¶œë ¥ : ");
+//	printf("1ºÎÅÍ 10±îÁö °öÇÑ ¼ö Ãâ·Â : ");
 //	for (number = 10, exitFor = number - 1;
 //		exitFor; number *= exitFor, exitFor--)
-//	{//ë³€ìˆ˜ ì„ ì–¸ì„ forë¬¸ ë‚´ë¶€ì—ì„œ í•˜ë©´ forë¬¸ ë‚´ë¶€ì—ì„œë§Œ ë³€ìˆ˜ê°€ ì¡´ì¬í•˜ê²Œ ë¨ 
-//     //ë•Œë¬¸ì— forë¬¸ë°–ì—ì„œëŠ” ì‚¬ìš©ë¶ˆê°€ (ifë¬¸ì´ë‚˜ whileë¬¸ë„ ë™ì¼) 
+//	{//º¯¼ö ¼±¾ğÀ» for¹® ³»ºÎ¿¡¼­ ÇÏ¸é for¹® ³»ºÎ¿¡¼­¸¸ º¯¼ö°¡ Á¸ÀçÇÏ°Ô µÊ 
+//     //¶§¹®¿¡ for¹®¹Û¿¡¼­´Â »ç¿ëºÒ°¡ (if¹®ÀÌ³ª while¹®µµ µ¿ÀÏ) 
 //
-//	//	printf("%d\n", number); ì—¬ê¸°ì— printfí•˜ë©´ 10 * 9 ì¸ 90ë¶€í„° í•˜ë‚˜ì”© ì°¨ë¡€ëŒ€ë¡œ ì¶œë ¥ ë¨
+//	//	printf("%d\n", number); ¿©±â¿¡ printfÇÏ¸é 10 * 9 ÀÎ 90ºÎÅÍ ÇÏ³ª¾¿ Â÷·Ê´ë·Î Ãâ·Â µÊ
 //	}
-//	printf("%d\n", number); //forë¬¸ ë°–ì—ì„œ printfí• ì‹œ 1ë¶€í„° 10ê¹Œì§€ ê³±í•œ ê²°ê³¼ê°’ë§Œ ì¶œë ¥
+//	printf("%d\n", number); //for¹® ¹Û¿¡¼­ printfÇÒ½Ã 1ºÎÅÍ 10±îÁö °öÇÑ °á°ú°ª¸¸ Ãâ·Â
 //	
 //		
 //}
@@ -883,9 +883,9 @@
 //	int count;
 //	for (count = 0; count < 5; count++)
 //	{
-//		//for()ì˜†ì— ; x 
-//		// while(), if()ë„ ë§ˆì°¬ê°€ì§€ 
-//		// ë‹¨ do-whileë¬¸ì€ ;ì¨ì•¼í•¨ 
+//		//for()¿·¿¡ ; x 
+//		// while(), if()µµ ¸¶Âù°¡Áö 
+//		// ´Ü do-while¹®Àº ;½á¾ßÇÔ 
 //		printf("%d\n", count);
 //	}
 //	return 0;
@@ -901,10 +901,10 @@
 //	}
 //}
 
-//í•œë³€ì˜ê¸¸ì´ê°€ sqLineì¸ ì •ì‚¬ê°í˜•ì´ ìˆë‹¤. 
-//ì •ì‚¬ê°í˜•ì˜ ë‘˜ë ˆì˜ í•©ì´ 21ì´í•˜ì¸ sqLineì˜ ê°’ì„ ëª¨ë‘ ì¶œë ¥í•˜ë¼ 
-// ì •ì‚¬ê°í˜•ì˜ ë‘˜ë ˆ ê³µì‹ì€ = sqLine *4ì´ë‹¤ 
-//ë‹¨ sqLineì€ ì†Œìˆ˜ ì²« ë²ˆì§¸ ìë¦¬ì˜ìˆ«ìì´ë©°, 0.1 ë¶€í„° ì‹œì‘í•´ ë°˜ë³µì‹œë§ˆë‹¤ 0.1ì”© ì¦ê°€
+//ÇÑº¯ÀÇ±æÀÌ°¡ sqLineÀÎ Á¤»ç°¢ÇüÀÌ ÀÖ´Ù. 
+//Á¤»ç°¢ÇüÀÇ µÑ·¹ÀÇ ÇÕÀÌ 21ÀÌÇÏÀÎ sqLineÀÇ °ªÀ» ¸ğµÎ Ãâ·ÂÇÏ¶ó 
+// Á¤»ç°¢ÇüÀÇ µÑ·¹ °ø½ÄÀº = sqLine *4ÀÌ´Ù 
+//´Ü sqLineÀº ¼Ò¼ö Ã¹ ¹øÂ° ÀÚ¸®ÀÇ¼ıÀÚÀÌ¸ç, 0.1 ºÎÅÍ ½ÃÀÛÇØ ¹İº¹½Ã¸¶´Ù 0.1¾¿ Áõ°¡
 //#include <stdio.h>
 //int main()
 //{
@@ -919,12 +919,12 @@
 //#include <stdio.h>
 //int main()
 //{
-//	printf("1ë°˜ 1ë²ˆ\n");
-//	printf("1ë°˜ 2ë²ˆ\n");
-//	printf("1ë°˜ 3ë²ˆ\n");
-//	printf("2ë°˜ 1ë²ˆ\n");
-//	printf("2ë°˜ 2ë²ˆ\n");
-//	printf("2ë°˜ 3ë²ˆ\n");
+//	printf("1¹İ 1¹ø\n");
+//	printf("1¹İ 2¹ø\n");
+//	printf("1¹İ 3¹ø\n");
+//	printf("2¹İ 1¹ø\n");
+//	printf("2¹İ 2¹ø\n");
+//	printf("2¹İ 3¹ø\n");
 //
 //	return 0;
 //}
@@ -934,36 +934,36 @@
 //{
 //	int myClass = 1;
 //	int student = 1;
-//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
-//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
-//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
+//	printf("%d¹İ %d¹ø\n", myClass, student); student++;
+//	printf("%d¹İ %d¹ø\n", myClass, student); student++;
+//	printf("%d¹İ %d¹ø\n", myClass, student); student++;
 //
-//	myClass++; student = 1; //í•™ë²ˆ ì´ˆê¸°í™”
-//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
-//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
-//	printf("%dë°˜ %dë²ˆ\n", myClass, student); student++;
+//	myClass++; student = 1; //ÇĞ¹ø ÃÊ±âÈ­
+//	printf("%d¹İ %d¹ø\n", myClass, student); student++;
+//	printf("%d¹İ %d¹ø\n", myClass, student); student++;
+//	printf("%d¹İ %d¹ø\n", myClass, student); student++;
 //	return 0;
 //}
 
 
-//ìœ„ì˜ ë‘ ì½”ë“œë¥¼ forë¬¸ì„ í†µí•´ ì¶œë ¥í•œê±° 
+//À§ÀÇ µÎ ÄÚµå¸¦ for¹®À» ÅëÇØ Ãâ·ÂÇÑ°Å 
 //#include <stdio.h>
 //int main()
 //{
 //	int myClass = 1;
 //	int student;
 //	for (student = 1; student <= 3; student++) {
-//		printf("%dë°˜ %dë²ˆ\n", myClass, student);
-//	}//studentëŠ” forë¬¸ ()ì•ˆì— ìˆìŒ 
+//		printf("%d¹İ %d¹ø\n", myClass, student);
+//	}//student´Â for¹® ()¾È¿¡ ÀÖÀ½ 
 //
-//	myClass++;//ì´ˆê¸°í™”ëŠ” forë¬¸()ì•ˆì— ìˆìŒ 
+//	myClass++;//ÃÊ±âÈ­´Â for¹®()¾È¿¡ ÀÖÀ½ 
 //	for (student = 1; student <= 3; student++) {
-//		printf("%dë°˜ %dë²ˆ\n", myClass, student);
+//		printf("%d¹İ %d¹ø\n", myClass, student);
 //	}
 //	return 0;
 //}
 
-//ìœ„ì˜ ì½”ë“œë“¤ì„ ë‚´ë¶€ forë¬¸ê³¼ ì™¸ë¶€forë¬¸ì„ ì‚¬ìš©í•´ì„œ ë” ê°„ëµí•˜ê²Œ ì¶œë ¥í•˜ê¸° 
+//À§ÀÇ ÄÚµåµéÀ» ³»ºÎ for¹®°ú ¿ÜºÎfor¹®À» »ç¿ëÇØ¼­ ´õ °£·«ÇÏ°Ô Ãâ·ÂÇÏ±â 
 //#include <stdio.h>
 //int main()
 //{
@@ -971,13 +971,13 @@
 //	int student;
 //	for (myClass = 1; myClass <= 8; myClass++) {
 //		for (student = 1; student <= 30; student++) {
-//			printf("%dë°˜ %dë²ˆ\n", myClass, student);
+//			printf("%d¹İ %d¹ø\n", myClass, student);
 //		}
 //	}
 //	return 0;
 //}
 
-//ìœ„ì˜ ì½”ë“œë“¤ êµ¬ì²´í™” 
+//À§ÀÇ ÄÚµåµé ±¸Ã¼È­ 
 //#include <stdio.h>
 //int main()
 //{
@@ -990,7 +990,7 @@
 //		{
 //			for (student = 1; student <= 30; student++)
 //			{
-//				printf("%dí•™ë…„ %dë°˜ %dë²ˆ \n", grade, myClass, student);
+//				printf("%dÇĞ³â %d¹İ %d¹ø \n", grade, myClass, student);
 //			}
 //		}
 //	}
@@ -999,7 +999,7 @@
 //
 //}
 
-//êµ¬êµ¬ë‹¨ 3ë‹¨ì œì™¸
+//±¸±¸´Ü 3´ÜÁ¦¿Ü
 //#include<stdio.h>
 //int main()
 //{
@@ -1008,9 +1008,9 @@
 //
 //	for (num1 = 2; num1 <= 9; num1++)
 //	{
-//		if (num1 == 3) continue; //3ë‹¨ ê±´ë„ˆë›°ê¸° 
+//		if (num1 == 3) continue; //3´Ü °Ç³Ê¶Ù±â 
 //		
-//		printf(">>> %dë‹¨ <<<\n", num1);
+//		printf(">>> %d´Ü <<<\n", num1);
 //		for (num2 = 1; num2 <= 9; num2++)
 //		{
 //			printf("%d * %d = %d\n", num1, num2, num1 * num2);
@@ -1028,7 +1028,7 @@
 //
 //	for (dice = 1; dice <= 4; dice++) {
 //		for (dice2 = 1; dice2 <= 6; dice2++) {
-//			printf("4ë©´ = %d, 6ë©´ = %d\n", dice, dice2);
+//			printf("4¸é = %d, 6¸é = %d\n", dice, dice2);
 //		}
 //	}
 //}
@@ -1039,15 +1039,15 @@
 //	int outer;
 //	int inter;
 //	for (outer = 0; outer < 5; outer ++ ) {
-//		printf("%dë²ˆì§¸ ë‚´ë¶€ ë°˜ë³µë¬¸ ì§„ì… \n", outer);
+//		printf("%d¹øÂ° ³»ºÎ ¹İº¹¹® ÁøÀÔ \n", outer);
 //		
-//		//ë‚´ë¶€ for ë¬¸ ì•ì— Â† ì½”ë“œëŠ” ê·¸ ì „ì— ì‹¤í–‰ 
+//		//³»ºÎ for ¹® ¾Õ¿¡ ? ÄÚµå´Â ±× Àü¿¡ ½ÇÇà 
 // 
 //		for (inter = 0; inter < 5; inter++) {
-//			printf("ë‚´ë¶€ ë°˜ë³µë¬¸ %dë²ˆ ë°˜ë³µ\n", inter);
+//			printf("³»ºÎ ¹İº¹¹® %d¹ø ¹İº¹\n", inter);
 //		}
-//		//ë‚´ë¶€ forë¬¸ ì•ì— ë„£ì€ ì½”ë“œëŠ” ê·¸ í›„ì— ì‹¤í–‰
-//		printf("%dë²ˆì§¸ ë‚´ë¶€ ë°˜ë³µë¬¸ íƒˆì¶œ\n\n", outer); //ë°˜ë³µë¬¸ë°”ê¹¥ì—ì„œ ì¶œë ¥í•œê±°
+//		//³»ºÎ for¹® ¾Õ¿¡ ³ÖÀº ÄÚµå´Â ±× ÈÄ¿¡ ½ÇÇà
+//		printf("%d¹øÂ° ³»ºÎ ¹İº¹¹® Å»Ãâ\n\n", outer); //¹İº¹¹®¹Ù±ù¿¡¼­ Ãâ·ÂÇÑ°Å
 //	}
 //	return 0;
 //}
@@ -1061,9 +1061,9 @@
 //		for (inter = 0; inter < 5; inter++) {
 //			printf("*");
 //		}
-//		//ì•ˆìª½ ë°˜ë³µë¬¸ ë°˜ë³µì‹œë§ˆë‹¤ *ì°í˜
-//		//ë‚´ë¶€ for ë¬¸ ë’¤ì— ë„£ì€ ì½”ë“œëŠ” ë‚´ë¶€forë¬¸ ë°˜ë³µ ëë‚˜ê³  ì‹¤í–‰
-//		printf("\n"); //ë°”ê¹¥ ë°˜ë³µë¬¸ ë°˜ë³µì‹œë§ˆë‹¤ ì¤„ë°”ê¿ˆ ì—¬ê¸°ì„  outerë¥¼ ëœ»í•¨ 
+//		//¾ÈÂÊ ¹İº¹¹® ¹İº¹½Ã¸¶´Ù *ÂïÈû
+//		//³»ºÎ for ¹® µÚ¿¡ ³ÖÀº ÄÚµå´Â ³»ºÎfor¹® ¹İº¹ ³¡³ª°í ½ÇÇà
+//		printf("\n"); //¹Ù±ù ¹İº¹¹® ¹İº¹½Ã¸¶´Ù ÁÙ¹Ù²Ş ¿©±â¼± outer¸¦ ¶æÇÔ 
 //	}
 //	return 0;
 //}
@@ -1075,7 +1075,7 @@
 //	int inter;
 //	for (outer = 0; outer < 5; outer++) {
 //		for (inter = 0; inter < outer + 1; inter++) {
-//			//ë‚´ë¶€ ë°˜ë³µë¬¸ì˜ ì¡°ê±´ë¬¸ì—ì„œ ì™¸ë¶€ë°˜ë³µë¬¸ì˜ outer ì‚¬ìš©
+//			//³»ºÎ ¹İº¹¹®ÀÇ Á¶°Ç¹®¿¡¼­ ¿ÜºÎ¹İº¹¹®ÀÇ outer »ç¿ë
 //			printf("*");
 //		}
 //		printf("\n");
@@ -1113,22 +1113,22 @@
 //	}
 //}
 
-//218p ì˜ˆì œëª¨ìŒ15 
+//218p ¿¹Á¦¸ğÀ½15 
 //#include <stdio.h>
 //
 //void main()
 //{
 //	int i;
 //
-//	for (i = 0; i < 128; i++) //ì•„ìŠ¤í‚¤ì½”ë“œ 0~127ê¹Œì§€ 
+//	for (i = 0; i < 128; i++) //¾Æ½ºÅ°ÄÚµå 0~127±îÁö 
 //	{
-//		if (i % 16 == 0) //16í–‰ë§ˆë‹¤ ì œëª© ì¤„ì„ ì¶œë ¥ 
+//		if (i % 16 == 0) //16Çà¸¶´Ù Á¦¸ñ ÁÙÀ» Ãâ·Â 
 //		{
 //			printf("-------------------\n");
-//			printf("10ì§„ìˆ˜ 16ì§„ìˆ˜ ë¬¸ì \n");
+//			printf("10Áø¼ö 16Áø¼ö ¹®ÀÚ \n");
 //			printf("-------------------\n");
 //		}
-//		printf("%5d %5x %5c\n", i, i, i); //10ì§„ìˆ˜, 16ì§„ìˆ˜, ë¬¸ìë¡œ ì¶œë ¥ 
+//		printf("%5d %5x %5c\n", i, i, i); //10Áø¼ö, 16Áø¼ö, ¹®ÀÚ·Î Ãâ·Â 
 //	}
 //}
 
@@ -1140,6 +1140,7 @@
 //	for (outer = 0; outer < 5; outer++)
 //	{
 //		for (inter = 0; inter < outer+1; inter++)
+//			//³»ºÎ ¹İº¹¹®ÀÇ Á¶°Ç¹®¿¡¼­ ¿ÜºÎ¹İº¹¹®ÀÇ outer»ç¿ë 
 //		{
 //			printf("*");
 //		}
@@ -1148,18 +1149,217 @@
 //}
 
 //#include <stdio.h>
+//
 //int main()
 //{
-//	int outer;   // ëª‡ ë²ˆì§¸ ì¤„ì¸ì§€ (0 ~ 4)
-//	int inter;   // ê·¸ ì¤„ì— ë³„ì„ ëª‡ ê°œ ì°ì—ˆëŠ”ì§€
-//	for (outer = 0; outer < 5; outer++)
+//	int outer, inner;
+//	for (outer = 0; outer < 5; outer++) {
+//		for (inner = 0; inner < 5; inner++) {
+//			if (outer == inner || outer + inner == 4)   // XÇ¥¸¦ ¸¸µé±â À§ÇÑ IF¹® 
+//				printf("*");
+//			else printf(" ");
+//		}
+//		printf("\n");
+//	}
+//	return 0;
+//}
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int outer;
+//	int inter1, inter2;
+//	for (outer = 0; outer < 5; outer++) { 
+//		for (inter1 = 0; inter1 < 5 - outer; inter1++) { //¹İº¹ÇÏ¿©" "(½ºÆäÀÌ½ºÅ°)Ãâ·Â
+//			printf(" ");
+//		}
+//		for (inter2 = 0; inter2 < outer + 1; inter2++) { //ÃÊ±âÈ­ºÎºĞ¿¡ ¹Ù±ù for¹®ÀÇ º¯¼ö »ç¿ë 
+//			printf("*");
+//		}
+//		printf("\n");
+//	}
+//	return 0;
+//}
+
+
+
+
+
+
+//#include<stdio.h>
+//
+//int main()
+//{
+//	//for (int x = 1; x <= 1; x++) {
+//	//	printf("*");
+//	//}
+//	//printf("\n");
+//	//for (int x = 1; x <= 2; x++) {
+//	//	printf("*");
+//	//}
+//	//printf("\n");
+//	//for (int x = 1; x <= 3; x++) {
+//	//	printf("*");
+//	//}
+//	//printf("\n");
+//	
+//	
+//	
+//	
+//	//int y = 1;
+//
+//	//for (int x = 1; x <= y; x++) {
+//	//	printf("*");
+//	//}
+//	//printf("\n");
+//	//y++;
+//
+//	//for (int x = 1; x <= y; x++) {
+//	//	printf("*");
+//	//}
+//	//printf("\n");
+//	//y++;
+//
+//	//for (int x = 1; x <= y; x++) {
+//	//	printf("*");
+//	//}
+//	//printf("\n");
+//	//y++;
+//
+//	printf("¸îÁÙ>>");
+//	int LINE = 3;
+//	scanf("%d", &LINE);
+//	
+//	for (int y = 1; y <= LINE; y++)
 //	{
-//		for (inter = 0; inter < 5 - outer; inter++)
-//		{
-//			printf("*"); //
+//		for (int x = 1; x <= y; x++) {
+//			printf("*");
+//		}
+//		printf("\n");
+//
+//	}
+//}
+
+//¹®Á¦1.
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int outer;
+//	int inter;
+//
+//	for (outer = 0; outer < 4; outer++) {
+//		for (inter = 0; inter < 4 - outer; inter++) {
+//			printf("*");
 //		}
 //		printf("\n");
 //	}
 //}
 
+//¹®Á¦2.
+#include<stdio.h>
 
+int main()
+{
+
+
+
+
+	int x;
+	int y = 1;
+	int z; 
+
+	//for (x = 0; x < 4; x++) {
+	//	for (y = 0; y < 2 * x +1; y++) { 
+	//		if()
+	//		printf("*");
+	//	}
+	//	printf("\n");
+	//}
+
+
+	//printf(" ");
+	//printf(" ");
+	//printf(" ");
+	//printf("*"); 
+	//printf("\n");
+	//printf(" ");
+	//printf(" ");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("\n");
+	//printf(" ");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("\n");
+ //   printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+	//printf("*");
+
+	//½ºÆäÀÌ½º°¡ 3>2>1>0 ¼ø 
+
+ 
+	
+     //½ºÆäÀÌ½º¿¡ ´ëÇÑ ¹İº¹¹®À» µû·Î ¸¸µé¾î¾ßÇÔ 
+
+	printf(" ");
+	printf(" ");
+	printf(" ");
+	
+
+	for (x = 0; x <y; x++) {
+		
+		printf("*");
+		
+	}
+	y+=2;
+	printf("\n");
+	printf(" ");
+	printf(" ");
+	for (x = 0; x < y; x++) {
+		
+		printf("*");
+		
+	}
+	y += 2;
+	
+	printf("\n");
+	printf(" ");
+	
+	for (x = 0; x < y; x++) {
+	
+		printf("*");
+		
+	}
+	y += 2;
+	printf("\n");
+
+	for (x = 0; x < y; x++) {
+	
+		printf("*");
+	}
+	x += 2;
+	printf("\n");
+
+	
+	//y++;
+	//printf("\n");
+	//printf("%d", x);
+	//printf("*");
+	//printf("\n");
+	//printf("**");
+	//printf("\n");
+	//printf("***");
+	//printf("\n");
+	
+
+}
