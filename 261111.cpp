@@ -102,44 +102,149 @@
 	//printf("\n");
 
 
-#include <stdio.h>
-int main()
-{
-	int x; //몇개인지 세는 변수
-	int y = 1; // 이번줄 별 개수
-	int z; // 빈칸
+//#include <stdio.h>
+//int main()
+//{
+//	int line; //int line = ?; 도 ok
+//	scanf("%d", &line);
+//	int x; //몇개인지 세는 변수
+//	int y = 1; // 이번줄 별 개수
+//	int z; // 빈칸
+//
+//	for (z = line-1; z >= 0; z--) {
+//		for (x = 0; x < z; x++) {
+//			printf(" ");
+//		}
+//		for (x = 0; x < y; x++) {
+//			printf("*");
+//		}
+//		y += 2;
+//		printf("\n");
+//	}
+//}
 
-	for (z = 3; z >= 0; z--) {
-		for (x = 0; x < z; x++) {
-			printf(" ");
-		}
-		for (x = 0; x < y; x++) {
-			printf("*");
-		}
-		y += 2;
-		printf("\n");
-	}
-}
+
 
 
 
 //#include <stdio.h>
+//
 //int main()
 //{
-//	int outer;   // 몇 번째 줄인지 (0, 1, 2, 3)
-//	int inter;   // 몇 개 찍었는지 세는 손가락
+//	int line;
+//	scanf("%d", &line);
+//	int x;
+//	int y = 1;
+//	int z;
 //
-//	for (outer = 0; outer < 4; outer++)                // 줄 4개 만들기
-//	{
-//		for (inter = 0; inter < 3 - outer; inter++)    // ① 빈칸 (3 - outer)개
-//		{
+//	for (z = line-1; z >= 0; z--) { //line 
+//		for (x = 0; x < z; x++) {
 //			printf(" ");
 //		}
-//		for (inter = 0; inter < 2 * outer + 1; inter++) // ② 별 (2 × outer + 1)개
-//		{
+//
+//		for (x = 0; x < y; x++) {
 //			printf("*");
 //		}
-//		printf("\n");                                  // ③ 줄바꿈
+//
+//		y += 2; 
+//		printf("\n"); 
+//	
+//		
 //	}
+//	//if (y == 7) 확장성에서는 y가 7이넘어가는 순간 false가 된다 즉 여기선 if쓰면 안됨 
+//		y -= 2;
+//	
+//
+//	for (z = 0; z <= line-1; z++) { // line;  
+//		for (x = 0; x < z; x++) {
+//			printf(" ");
+//		}
+//		for (x = 0; x < y; x++) {
+//			printf("*");
+//		}
+//		y -= 2;
+//		printf("\n");
+//	}
+//	
 //}
 
+
+//#include <stdio.h>
+//
+//int main()
+//{
+//	int line;
+//	scanf("%d", &line);
+//	int x;
+//	int y = 1;
+//	int z;
+//
+//	for (z = line-1; z >= 0; z--) { //공백
+//		for (x = 0; x < z; x++) {
+//			printf(" ");
+//		}
+//		for (x = 0; x < y; x++) {
+//			printf("%d", y);
+//	}
+//
+//		y += 1; 
+//		printf("\n");
+//
+//	}
+//	
+//
+//}
+
+#include <stdio.h>
+
+int main()
+{
+	int input; //scanf로 입력받은 숫자 
+	int num = 0; //현재 숫자 몇인지? 
+	int count = 0; // 몇개 입력했는지 
+	char turnA = 'A'; //누구 차례인지 
+	char turnB = 'B';
+	int lose = 31;
+
+
+
+	printf("게임을 시작합니다! : 뒤에 숫자를 입력해주세요.\n");
+	printf("%c : ",turnA);
+	scanf("%d", &input);
+	printf("%c : ", turnA);
+	scanf("%d", &input);
+	printf("%c : ", turnA);
+	scanf("%d", &input);
+	
+	printf("턴이 넘어갑니다.\n");
+
+	printf("%c : ", turnB);
+	scanf("%d", &input);
+	printf("%c : ", turnB);
+	scanf("%d", &input);
+	printf("%c : ", turnB);
+	scanf("%d", &input);
+	
+	printf("턴이 넘어갑니다.\n");
+
+	printf("%c : ", turnA);
+	scanf("%d", &input);
+	printf("%c : ", turnA);
+	scanf("%d", &input);
+	printf("%c : ", turnA);
+	scanf("%d", &input);
+
+	printf("턴이 넘어갑니다.\n");
+
+	printf("%c : ", turnB);
+	scanf("%d", &input);
+	printf("%c : ", turnB);
+	scanf("%d", &input);
+	printf("%c : ", turnB);
+	scanf("%d", &input);
+	
+	
+
+
+
+}
